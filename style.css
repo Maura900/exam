@@ -196,5 +196,41 @@ line-height: 29px;
 letter-spacing: 0.231px;
 color: #0066CC;
 }
-.apple {display: flex;}
+.apple {display: flex;
+padding: 30px;}
+.apple .left {display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;}
+.apple .right {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;}
+    .apple .left .top {display: flex;
+    flex-direction: column;
+align-items: center;}
+.apple .right .top {display: flex;
+    flex-direction: column;
+align-items: center;}
+.apple .left .top h2 {font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    letter-spacing: 0.336px;
+    color: #1D1D1F;}
+    .apple .right .tab {display: flex;
+        justify-content: space-between;
+        width: 30%;}
+    .apple .right .tab p {font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color: #0066CC;}
+    .apple .left .tab {display: flex;
+        justify-content: space-between;
+        width: 40%;}
+    .apple .left .tab p {font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color: #0066CC;}
 
