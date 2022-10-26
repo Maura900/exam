@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {margin: 0;}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+a {
+text-decoration: none;
+color: #0066CC;
+}
+p {margin-top: 0;
+margin-bottom: 0;}
+header {
+    height: 44px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+header nav ul li {
+    color: #FFFFFF;
+    align-items: center;
+    display: flex;
+}
+
+/* Top Section  */
+.topSection {background: #FBFBFD;}
+.topSection .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topSection .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topSection .top h2 {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.28px;
+    color: #1D1D1F;
+    font-weight: 700;
+}
+
+.topSection .top p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    letter-spacing: 0.112px;
+    color: #1D1D1F;
+}
+.topSection .top .tab {display: flex;
+justify-content: space-between;
+width: 80%;}
+.topSection .top .tab p {font-weight: 400;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.231px;
+color: #0066CC;
+margin:0;}
+/* Section 2  */
+.Section2 {background: black;}
+.Section2 .container{display: flex;
+flex-direction: column;
+align-items: center;
+}
+.Section2 .top {display: flex;
+    flex-direction: column;
+    align-items: center;}
+.Section2 .top h2 {
+font-size: 56px;
+line-height: 60px;
+letter-spacing: 0.28px;
+color: white;
+font-weight: 700;
+}
+    
+.Section2 .top p {
+font-weight: 400;
+font-size: 28px;
+line-height: 31px;
+letter-spacing: 0.112px;
+color: white;
+}
+.Section2 .top .tab {display: flex;
+justify-content: space-between;
+width: 60%;}
+.Section2 .top .tab p {font-weight: 400;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.231px;
+color: #0066CC;}
+.Section2 .bottom img {height: 60vh;
+}
+/* Watch Section  */
+.watch {background: #FBFBFD;}
+.watch .container {display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;}
+.watch .container .top {display: flex;
+flex-direction: column;
+align-items: center;}
+.watch .container .top h2 {font-weight: 400;
+font-size: 28px;
+line-height: 31px;
+letter-spacing: 0.112px;
+color: #1D1D1F;
+margin-bottom: 0;}
+.watch .container .top .tab {display: flex;
+    justify-content: space-between;
+    width: 15%;}
+.watch .container .top .tab p {font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+    letter-spacing: 0.231px;
+    color: #0066CC;}
+/* Accessories Section  */
+.accessories {position: relative;
+background:black;
+display: flex;}
+.accessories .container {display: flex;
+}
+.accessories .left {display: flex;
+    
+width: 100%;}
+.accessories .left .top {position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+top: 60px;
+left: 440px;}
+.accessories .left h2 {font-weight: 400;
+font-size: 21px;
+line-height: 26px;
+letter-spacing: 0.336px;
+color: #F5F5F7;}
+.accessories .left .tab {display: flex;
+    justify-content: space-between;
+    width: 40%;}
+.accessories .left .tab p {font-weight: 400;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.231px;
+color: #0066CC;}
+.accessories .right {display: flex;}
+.accessories .right .top {position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+top: 20px;
+right: 350px;}
+.accessories .right h2 {font-weight: 700;
+font-size: 40px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #F5F5F7;
+margin-bottom: 0;
+}
+.accessories .right h3 {font-weight: 400;
+font-size: 21px;
+line-height: 26px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.336px;
+color: #F5F5F7;}
+.accessories .right .tab {display: flex;
+    justify-content: space-between;
+    width: 70%;}
+.accessories .right .tab p {font-weight: 400;
+font-size: 21px;
+line-height: 29px;
+letter-spacing: 0.231px;
+color: #0066CC;
+}
+.apple {display: flex;}
+
